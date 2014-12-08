@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        min-width: 357px;
+        min-height: 300px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+  </head>
+  <body>
+      <div id="autorisation">
+          <label for="login">Login: </label><input id="login" name="login"><br>
+          <label for="password">Password: </label><input id="password" type="password" name="password"><br>
+          <button id="auth">login</button>
+      </div>
+      <div id="auth-info" style="display: none;">
+          <button id="logout">Logout</button>
+      </div>
+      <script src="javascript/popup.js"></script>
+  </body>
+</html>
+
